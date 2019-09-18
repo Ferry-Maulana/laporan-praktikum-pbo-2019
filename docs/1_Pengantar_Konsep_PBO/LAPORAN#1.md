@@ -58,12 +58,12 @@ link kode program : [link ke kode program Sepeda Gunung](../../src/1_Pengantar_K
     >atribut merek, atribut kecepatan, dan gear.
 
 5. Tambahkan atribut warna pada class Sepeda.
-    >![screenshot warna](img/SepedaWarna.png)
-    ![screenshot warna](img/HasilSepedaWarna.png)
+    ![screenshot warna](img/SepedaWarna.PNG)
+    ![screenshot warna](img/HasilSepedaWarna.PNG)
 
 6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?
     >karena pada class SepedaGunung terdapat komponen yang sama dari class sepeda
-      cd
+    
 ## Tugas
 
 (silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
