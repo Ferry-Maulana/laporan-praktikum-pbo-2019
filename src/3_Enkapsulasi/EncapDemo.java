@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Pbo3;
 
 public class EncapDemo {
@@ -23,13 +18,15 @@ public int getAge()
     }
 public void setAge(int newAge)
     {
-        if (newAge>18&& newAge<30)
+        if (newAge>30)
         {
-        age=newAge;
-        
-    }else{
-            System.out.println("maaf umur anda melebihi batas max!!");
+            age=30;
         }
+        else
+        {
+            age=newAge;
+        }
+    
     }   
 }
 

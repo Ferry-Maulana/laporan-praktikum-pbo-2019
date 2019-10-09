@@ -21,10 +21,6 @@ link kode program : [link ke kode program Sepeda](../../src/1_Pengantar_Konsep_P
 link kode program : [link ke kode program Sepeda Demo](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720137Ferry.java)
 ### Percobaan 2
 
-(berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
-
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
-
 ![contoh screenshot](img/SepedaGunung.PNG)
 
 link kode program : [link ke kode program Sepeda](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720137Ferry.java)
@@ -39,10 +35,13 @@ link kode program : [link ke kode program Sepeda Gunung](../../src/1_Pengantar_K
 1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!
     >A. Object
     Objek memiliki state dan behaviour. State adalah ciri-ciri atau atribut dari objek tersebut. Misal objek Sepeda, memiliki state merek, kecepatan, gear dan sebagainya. Sedangkan behaviour adalah perilaku yang dapat dilakukan objek tersebut. Misal pada Sepeda, behaviournya antara lain, tambah kecepatan, pindah gear, kurangi kecepatan, belok, dan sebagainya. 
+
     B. Class
     Class adalah blueprint atau prototype dari objek. Ambil contoh objek sepeda. Terdapat berbagai macam sepeda di dunia, dari berbagai merk dan model. Namun semua sepeda dibangun berdasarkan blueprint yang sama, sehingga tiap sepeda memiliki komponen dan karakteristik yang sama. Sepeda yang anda miliki dirumah, adalah hasil instansiasi dari class sepeda.
+
     C. Enkapsulasi
     Disebut juga dengan information-hiding. Dalam berinteraksi dengan objek, seringkali kita tidak perlu mengetahui kompleksitas yang ada didalamnya. Contoh pada sepeda, ketika kita mengganti gear pada sepeda, kita tinggal menekan tuas gear yang ada di grip setang sepeda saja. Kita tidak perlu mengetahui bagaimana cara gear berpindah secara teknis. 
+
     D. Inheritance
     Disebut juga pewarisan. Inheritance memungkinkan kita untuk mengorganisir struktur program dengan natural. Inheritance juga memungkinkan kita untuk memperluas fungsionalitas program tanpa harus mengubah banyak bagian program.
     E. Polimorfisme

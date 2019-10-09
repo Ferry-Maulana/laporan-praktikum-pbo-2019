@@ -1,95 +1,143 @@
-# Laporan Praktikum #2 - Class dan Object
+# Laporan Praktikum #3 - Class dan Object
 
 ## Kompetensi
 
- Mahasiswa dapat memahami deskripsi dari class dan object 
- Mahasiswa memahami implementasi dari class 
- Mahasiswa dapat memahami implementasi dari attribute  Mahasiswa dapat memahami implementasi dari method 
- Mahasiswa dapat memahami implementasi dari proses      instansiasi 
- Mahasiswa dapat memahami implementasi dari try-catch  Mahasiswa dapat memahami proses pemodelan class        diagram menggunakan UML 
+Setelah melakukan percobaan pada modul ini, mahasiswa memahami konsep:
+1. Konstruktor
+2. Akses Modifier
+3. Atribut/method pada class
+4. Intansiasi atribut/method
+5. Setter dan getter
+6. Memahami notasi pada UML Class Diagram
 
 ## Ringkasan Materi
+> Enkapsukasi disebut juga dengan information-hiding. Dalam berinteraksi dengan objek, seringkali
+kita tidak perlu mengetahui kompleksitas yang ada didalamnya
 
 ## Percobaan
 
 ### Percobaan 1
-[contoh screenshot](img/MotorDemo.PNG)
+![screenshot program motor](img/ProgramMotor.PNG)
+
+![screenshot program motor demo](img/ProgramMotorDemo.PNG)
+
+![screenshot hasil program motor](img/Kontak.PNG)
 
 ### Percobaan 2
 
-![contoh screenshot](img/TesMahasiswa.PNG)
+![screenshot program](img/ProgramMotor2.PNG)
 
-link kode program : [link ke kode program Mahasiswa](../../src/2-Class_dan_Object/Mahasiswa1841720137Ferry.java)
+![screenshot program](img/ProgramMotorDemo2.PNG)
 
-link kode program : [link ke kode program Tes Mahasiswa](../../src/2-Class_dan_Object/TestMahasiswa1841720137Ferry.java)\
+![screenshot hasil](img/HasilProgram2.PNG)
 
+link kode program : [link ke kode program Motor](../../src/3_Enkapsulasi/Motor1841720137Ferry.java)
+
+link kode program : [link ke kode program Motor Demo](../../src/3_Enkapsulasi/MotorDemo1841720137Ferry.java)
+
+
+### Pertayaan
+1. Pada class TestMobil, saat kita menambah kecepatan untuk pertama kalinya, mengapa
+muncul peringatan “Kecepatan tidak bisa bertambah karena Mesin Off!”?
+    > karena dalam fungsi tambahKecepatan kontakOn bernilai false
+2. Mengapat atribut kecepatan dan kontakOn diset private?
+    > untuk menyembunyikan atribut dari class lain
+3. Ubah class Motor sehingga kecepatan maksimalnya adalah 100!
+    >
+    
 
 ### Percobaan 3
 
-![contoh screenshot](img/TesBarang.PNG)
+![contoh screenshot](img/Anggota.PNG)
+![contoh screenshot](img/KoperasiDemo.PNG)
+![contoh screenshot](img/HasilKoperasi.PNG)
 
-link kode program : [link ke kode program Mahasiswa](../../src/2-Class_dan_Object/Barang1841720137Ferry.java)
+link kode program : [link ke kode program ](../../src/3_Enkapsulasi/Anggota1841720137Ferry.java)
 
-link kode program : [link ke kode program Tes Mahasiswa](../../src/2-Class_dan_Object/TestBarang1841720137Ferry.java)
+link kode program : [link ke kode program  ](../../src/3_Enkapsulasi/KoperasiDemo.java)
 
-## Pertanyaan
+## Pertanyaan 3 & 4
+1. Apa yang dimaksud getter dan setter?
+    > getter : fungsi untuk mendapatkan nilai
 
-1. 1. Sebutkan Class apa saja yang bisa dibuat dari         studi kasus 1!,
-        > 
-    2. Sebutkan atribut beserta tipe datanya yang dapat diidentifikasi dari masing-masing class dari studi kasus 1! 
-        >
-    3. Sebutkan method-method yang sudah anda buat dari masing-masing class pada studi kasus 1! 
-        >
+    > Setter : fungsi untuk memberi nilai
 
-2.  1. Jelaskan pada bagian mana proses pendeklarasian      atribut pada program diatas!
-        >
-    2. Jelaskan pada bagian mana proses pendeklarasian method pada program diatas! 
-        >
-    3. Berapa banyak objek yang di instansiasi pada program diatas! 
-        >
-    4. Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.nim=101” ? 
-        >
-    5. Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.tampilBiodata()” ? 
-        >
-3.  1. Apakah fungsi argumen dalam suatu method? 
-        >
-    2. Ambil kesimpulan tentang kegunaan dari kata kunci return , dan kapan suatu method harus memiliki return!
-        >
+2. Apa kegunaan dari method getSimpanan()?
+    > mendapatkan nilai dari simpanan
+
+3. Method apa yang digunakan untk menambah saldo?
+    > setor()
+
+4. Apa yand dimaksud konstruktor?
+    >
+
+5. Sebutkan aturan dalam membuat konstruktor?
+    >nama yang sama seperti nama class
+
+    >tidak memiliki tipe return
+
+    > tidak boleh menggunakan modifier abstract,static,final,dan synchronized
+
+6. Apakah boleh konstruktor bertipe private?
+    >boleh
+
+7. Kapan menggunakan parameter dengan passsing parameter?
+    >saat akan menentukan / memberi suatu nilai yang merubah nilai pada fungsi yang di jalankan
+
+8. Apa perbedaan atribut class dan instansiasi atribut?
+    >class : method yang belum berisi nilai
+
+    >instansiasi atribut : pemanggilan dan pengisian nilai pada atribut
+
+9. Apa perbedaan class method dan instansiasi method? 
+    >class : method yang belum berisi nilai
+
+    >instansiasi method : pemanggilan dan pengisian nilai pada method
+
+
 
 ## Tugas
 
 1.
+![screenshot tugas demo](img/EncapDemo.PNG)
+
+![screenshot tugas demo](img/EncapTest.PNG)
+
+![screenshot tugas demo](img/HasilEncap.PNG)
+
+link kode program : [link ke kode program Tugas ](../../src/3_Enkapsulasi/EncapDemo.java)
+
+link kode program : [link ke kode program Tugas ](../../src/3_Enkapsulasi/EncapTest.java)
 
 
-2.
+2. Pada program diatas, pada class EncapTest kita mengeset age dengan nilai 35, namun pada saat ditampilkan ke layar nilainya 30, jelaskan mengapa.
+    > Karena tidak memenuhi syarat if
+3. 
 
-![screenshot tugas demo](img/SewaDemo.PNG)
+![screenshot tugas ](img/EncapDemo2.PNG)
 
+link kode program : [link ke kode program Tugas Sewa](../../src/3_Enkapsulasi/EncapDemo.java)
 
-link kode program : [link ke kode program Tugas Sewa](../../src/2-Class_dan_Object/Sewa1841720137Ferry.java)
+4. 
 
-link kode program : [link ke kode program Tugas Sewa](../../src/2-Class_dan_Object/SewaDemo1841720137Ferry.java)
+![screenshot tugas demo](img/Tugas1.PNG)
 
-3.
+![screenshot tugas demo](img/Tugas2.PNG)
 
-![screenshot tugas demo](img/LingkaranDemo.PNG)
+![screenshot tugas demo](img/HasilTugas.PNG)
 
-link kode program : [link ke kode program Tugas Sewa](../../src/2-Class_dan_Object/Lingkaran1841720137Ferry.java)
+link kode program : [link ke kode program Tugas Sewa](../../src/3_Enkapsulasi/AnggotaTugas.java)
 
-link kode program : [link ke kode program Tugas Sewa](../../src/2-Class_dan_Object/LingkaranDemo1841720137Ferry.java)
-
-4.
-
-![screenshot tugas demo](img/BarangDuaDemo.PNG)
-
-link kode program : [link ke kode program Tugas Sewa](../../src/2-Class_dan_Object/BarangDua1841720137Ferry.java)
-
-link kode program : [link ke kode program Tugas Sewa](../../src/2-Class_dan_Object/BarangDuaDemo1841720137Ferry.java)
+link kode program : [link ke kode program Tugas Sewa](../../src/3_Enkapsulasi/TestKoperasi.java)
 
 
 
 ## Kesimpulan
-
+>Dari percobaan diatas, telah dipelajari kosep dari enkapsulasi, kontruktor, access modifier yang
+terdiri dari 4 jenis yaitu public, protected, default dan private. Konsep atribut atau method class
+yang ada di dalam blok code class dan konsep instansiasi atribut atau method. Cara penggunaan
+getter dan setter beserta fungsi dari getter dan setter. Dan juga telah dipelajari atau memahami
+notasi UML
 
 ## Pernyataan Diri
 

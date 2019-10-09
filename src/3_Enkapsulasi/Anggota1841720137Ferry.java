@@ -1,10 +1,10 @@
 package Pbo3;
-public class Anggota1841720157Andri {
+public class Anggota1841720137Ferry {
     private String nama;
     private String alamat;
     private float simpanan;
     
-    Anggota1841720157Andri(String nama, String alamat) {
+    Anggota1841720137Ferry(String nama, String alamat) {
         this.nama = nama;
         this.alamat = alamat;
         this.simpanan = 0;
