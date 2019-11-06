@@ -33,7 +33,7 @@ link kode program : [link ke kode program Sepeda Gunung](../../src/1_Pengantar_K
 ## Pertanyaan
 
 1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!
-    >A. Object
+    A. Object
     Objek memiliki state dan behaviour. State adalah ciri-ciri atau atribut dari objek tersebut. Misal objek Sepeda, memiliki state merek, kecepatan, gear dan sebagainya. Sedangkan behaviour adalah perilaku yang dapat dilakukan objek tersebut. Misal pada Sepeda, behaviournya antara lain, tambah kecepatan, pindah gear, kurangi kecepatan, belok, dan sebagainya. 
 
     B. Class
@@ -64,10 +64,6 @@ link kode program : [link ke kode program Sepeda Gunung](../../src/1_Pengantar_K
     >karena pada class SepedaGunung terdapat komponen yang sama dari class sepeda
     
 ## Tugas
-
-(silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
-
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
 ![screenshot tugas](img/Tugas.PNG)
 ![screenshot tugas demo](img/TugasDemo.PNG)

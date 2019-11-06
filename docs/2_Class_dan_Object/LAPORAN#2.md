@@ -1,4 +1,4 @@
-# Laporan Praktikum #2 - Class dan Object
+# Laporan Praktikum #3 - Enkapsulasi
 
 ## Kompetensi
 
@@ -6,9 +6,9 @@
 - Mahasiswa memahami implementasi dari class 
 - Mahasiswa dapat memahami implementasi dari attribute
  - Mahasiswa dapat memahami implementasi dari method 
-- Mahasiswa dapat memahami implementasi dari proses      instansiasi 
+- Mahasiswa dapat memahami implementasi dari proses  instansiasi 
 - Mahasiswa dapat memahami implementasi dari try-catch
- - Mahasiswa dapat memahami proses pemodelan class        diagram menggunakan UML 
+ - Mahasiswa dapat memahami proses pemodelan class diagram menggunakan UML 
 
 ## Ringkasan Materi
 > Object adalah instance dari class. Jika class secara umum mepresentasikan (template) sebuah object, sebuah instance adalah representasi nyata dari class itu sendiri
